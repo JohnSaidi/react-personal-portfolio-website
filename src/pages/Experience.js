@@ -11,7 +11,7 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2010 - 2014"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
@@ -21,15 +21,31 @@ function Experience() {
             My Random High School, Random Place, Random State
           </h3>
           <p> High School Diploma</p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2018"
+          date="2016 - 2018"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
+            Midlands Technical College, Columbia, South Carolina
+          </h3>
+
+          <h4 className="vertical-timeline-element-subtitle">
+            Associates Degree
+          </h4>
+
+          <p> Associates in Science</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2019 - 2022"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            University of South Carolina, Columbia, South Carolina
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
@@ -38,7 +54,7 @@ function Experience() {
 
           <p> Computer Science</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2018 - 2020"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
@@ -51,23 +67,27 @@ function Experience() {
             San Francisco, CA
           </h4>
           <p>Developed the backend infrastructure for 3 projects.</p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2020 - present"
+          date="2021 - 2022"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            THE FINAL FRONTIER FRONTEND DEVELOPER - University Of South Carolina
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Columbia SC
           </h4>
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+          Spearheaded the development of a captivating Real-Time
+          Strategy (RTS) game with a space-themed concept.
+
+          Demonstrated expertise in Lua programming to meticulously
+          craft and design the game's user interface (UI) for an immersive
+          gaming experience.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
